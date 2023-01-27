@@ -1,0 +1,108 @@
+body {
+	margin: 0;
+	padding-top: 550px;
+	text-align: center;}
+img {
+    width: 100;
+    height: 100;
+    border-radius: 50%;
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;}
+#name {
+	font-size: 50px;
+	font-family: cursive;}
+#welcome {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(red 60%, #27ae60 40%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    font-family: "Yellowtail", cursive;}
+h1 {
+    font-size: 40px;
+    font-weight: 300;
+    text-shadow: 30px 50px bengali;
+    font-family: "Yellowtail", cursive;}
+p {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Exo", sans-serif;
+    padding-top: 25px;
+    padding-left: 10x;
+    padding-right: 10px;
+    padding-bottom: 25px;}    
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: "Yellowtail", cursive;}
+.line {
+    height: 6px;
+    background-color: yellow;
+    width: 70px;
+    margin: 8px auto;
+    font-family: "Exo", sans-serif;}
+#hobby {
+    font-family: sans-serif;
+    padding: 50px;
+    font-family: "Exo", sans-serif;}
+.menu {
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;}
+.links:hover {
+	float: top;
+	padding-top: 5px;
+	padding-left: 10x;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	font-family: fantasy;
+	font-size: 20px;
+	background-color: yellowgreen;}
+#work {
+    font-size:30px;}
+#book {
+	font-family: sans-serif;
+	padding: 50px;
+    font-family: 'Chilanka', cursive;}
+#picture {
+    width: auto;
+    height: 300px;
+    border-radius: 0%;
+    margin: 20px;}
+.insp {
+    background: #373B44;
+    background: linear-gradient(#4286f4, #373B44);
+    padding-top: 20px;}
+img:hover {
+    transform: scale(0.9)}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;}
+li {
+    float: left;
+    border-right: 1px solid #bbb;}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;}
+#contact{
+background: firebrick;}
+#contact iframe{
+    width: 100%;}
+.contact_1 h3{
+    display: inline;}
+.contact_1 a{
+    color: white;
+    text-shadow: none;}
